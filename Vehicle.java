@@ -1,17 +1,16 @@
-package lab_1;
 
 import java.util.ArrayList;
 
 
-public class Vehicle implements Vecv
+public class Vehicle
 {
-	int n_wl; 		// Number of wheels
-	boolean engine; // whether has a engine or not
-	String name; 	// Name of the owner
-	String model; 	// Name of the model
-	boolean Tpp_policy; // whether the vehicle holds TPP or not
-	boolean pol_valid; // Checks whether policy is valid no not
-	int damage;		   // Amount of damage to the object;
+	private int n_wl; 		// Number of wheels
+	private boolean engine; // whether has a engine or not
+	private String name; 	// Name of the owner
+	private String model; 	// Name of the model
+	private boolean Tpp_policy; // whether the vehicle holds TPP or not
+	private boolean pol_valid; // Checks whether policy is valid no not
+	private int damage;		   // Amount of damage to the object;
 	
 	public Vehicle(int wls, boolean eng, String nm, String mod, boolean tpp, boolean pl_vald)
 	{
